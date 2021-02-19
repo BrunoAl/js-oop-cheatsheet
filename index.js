@@ -79,6 +79,7 @@ function classInheritance() {
     //   this.ask(msg)
     // }
     ask(msg) {
+      // Relative polymorphism
       super.ask(msg.toUpperCase())
     }
   }
