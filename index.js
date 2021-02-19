@@ -55,7 +55,7 @@ function newKeyword() {
     console.log(this.teacher, question)
   }
   
-  // Invoke a function and points `this` to a brand new empty object.
+  // Invokes a function and points `this` to a brand new empty object.
   const newEmptyObject = new ask('How does new work?')
 }
 
